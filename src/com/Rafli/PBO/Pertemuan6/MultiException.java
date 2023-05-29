@@ -18,7 +18,7 @@ public class MultiException {
             System.out.println(bilangan1 + " / " + bilangan2 + " = " + hasil + "(dibulatkan)" );
         }
 
-        //Multiple Excception
+//        //Multiple Excception
 //        catch (ArithmeticException | InputMismatchException e) {
 //            System.out.println("Error. Tidak dapat diproses :(");
 //        }
