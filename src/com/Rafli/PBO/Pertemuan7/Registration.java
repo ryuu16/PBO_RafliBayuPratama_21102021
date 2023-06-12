@@ -16,6 +16,7 @@ public class Registration extends JFrame {
     private JButton saveButton;
     private JButton clearButton;
     private JPanel mainPanel;
+    private ButtonGroup JK;
 
     public Registration() {
         super ("Formulir Registrasi");
@@ -31,8 +32,9 @@ public class Registration extends JFrame {
                 TxtTelp.setText(" ");
                 TxtAreaAlamat.setText(" ");
                 CBProdi.setSelectedIndex(0);
-                lakiLakiRadioButton.setSelected(false);
-                perempuanRadioButton.setSelected(false);
+//                lakiLakiRadioButton.setSelected(false);
+//                perempuanRadioButton.setSelected(false);
+                JK.clearSelection();
             }
         });
         saveButton.addActionListener(new ActionListener() {
